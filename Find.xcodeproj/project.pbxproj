@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53A70DD026EB9C6100E89664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A70DCF26EB9C6100E89664 /* AppDelegate.swift */; };
+		53A70DD226EB9C6100E89664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A70DD126EB9C6100E89664 /* ContentView.swift */; };
+		53A70DD426EB9C6100E89664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A70DD326EB9C6100E89664 /* Assets.xcassets */; };
+		53A70DD726EB9C6100E89664 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A70DD626EB9C6100E89664 /* Preview Assets.xcassets */; };
+		53A70DDA26EB9C6100E89664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A70DD826EB9C6100E89664 /* Main.storyboard */; };
+		53A70DE926EB9C7600E89664 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A70DE826EB9C7600E89664 /* FinderSync.swift */; };
+		53A70DEE26EB9C7600E89664 /* FindEx.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53A70DE626EB9C7600E89664 /* FindEx.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53A70DEC26EB9C7600E89664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53A70DC426EB9C6100E89664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53A70DE526EB9C7600E89664;
+			remoteInfo = FindEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53A70DF226EB9C7600E89664 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53A70DEE26EB9C7600E89664 /* FindEx.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5337E11726FD6782006BAF86 /* FindRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindRelease.entitlements; sourceTree = "<group>"; };
+		53A70DCC26EB9C6100E89664 /* Find.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Find.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A70DCF26EB9C6100E89664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53A70DD126EB9C6100E89664 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53A70DD326EB9C6100E89664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53A70DD626EB9C6100E89664 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53A70DD926EB9C6100E89664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53A70DDB26EB9C6100E89664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A70DDC26EB9C6100E89664 /* Find.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Find.entitlements; sourceTree = "<group>"; };
+		53A70DE626EB9C7600E89664 /* FindEx.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FindEx.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A70DE826EB9C7600E89664 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		53A70DEA26EB9C7600E89664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A70DEB26EB9C7600E89664 /* FindEx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindEx.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53A70DC926EB9C6100E89664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A70DE326EB9C7600E89664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53A70DC326EB9C6100E89664 = {
+			isa = PBXGroup;
+			children = (
+				53A70DCE26EB9C6100E89664 /* Find */,
+				53A70DE726EB9C7600E89664 /* FindEx */,
+				53A70DCD26EB9C6100E89664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53A70DCD26EB9C6100E89664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53A70DCC26EB9C6100E89664 /* Find.app */,
+				53A70DE626EB9C7600E89664 /* FindEx.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53A70DCE26EB9C6100E89664 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				5337E11726FD6782006BAF86 /* FindRelease.entitlements */,
+				53A70DCF26EB9C6100E89664 /* AppDelegate.swift */,
+				53A70DD126EB9C6100E89664 /* ContentView.swift */,
+				53A70DD326EB9C6100E89664 /* Assets.xcassets */,
+				53A70DD826EB9C6100E89664 /* Main.storyboard */,
+				53A70DDB26EB9C6100E89664 /* Info.plist */,
+				53A70DDC26EB9C6100E89664 /* Find.entitlements */,
+				53A70DD526EB9C6100E89664 /* Preview Content */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		53A70DD526EB9C6100E89664 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53A70DD626EB9C6100E89664 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53A70DE726EB9C7600E89664 /* FindEx */ = {
+			isa = PBXGroup;
+			children = (
+				53A70DE826EB9C7600E89664 /* FinderSync.swift */,
+				53A70DEA26EB9C7600E89664 /* Info.plist */,
+				53A70DEB26EB9C7600E89664 /* FindEx.entitlements */,
+			);
+			path = FindEx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53A70DCB26EB9C6100E89664 /* Find */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A70DDF26EB9C6100E89664 /* Build configuration list for PBXNativeTarget "Find" */;
+			buildPhases = (
+				53A70DC826EB9C6100E89664 /* Sources */,
+				53A70DC926EB9C6100E89664 /* Frameworks */,
+				53A70DCA26EB9C6100E89664 /* Resources */,
+				53A70DF226EB9C7600E89664 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53A70DED26EB9C7600E89664 /* PBXTargetDependency */,
+			);
+			name = Find;
+			productName = Find;
+			productReference = 53A70DCC26EB9C6100E89664 /* Find.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53A70DE526EB9C7600E89664 /* FindEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A70DEF26EB9C7600E89664 /* Build configuration list for PBXNativeTarget "FindEx" */;
+			buildPhases = (
+				53A70DE226EB9C7600E89664 /* Sources */,
+				53A70DE326EB9C7600E89664 /* Frameworks */,
+				53A70DE426EB9C7600E89664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindEx;
+			productName = FindEx;
+			productReference = 53A70DE626EB9C7600E89664 /* FindEx.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53A70DC426EB9C6100E89664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					53A70DCB26EB9C6100E89664 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					53A70DE526EB9C7600E89664 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 53A70DC726EB9C6100E89664 /* Build configuration list for PBXProject "Find" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53A70DC326EB9C6100E89664;
+			productRefGroup = 53A70DCD26EB9C6100E89664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53A70DCB26EB9C6100E89664 /* Find */,
+				53A70DE526EB9C7600E89664 /* FindEx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53A70DCA26EB9C6100E89664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A70DDA26EB9C6100E89664 /* Main.storyboard in Resources */,
+				53A70DD726EB9C6100E89664 /* Preview Assets.xcassets in Resources */,
+				53A70DD426EB9C6100E89664 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A70DE426EB9C7600E89664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53A70DC826EB9C6100E89664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A70DD226EB9C6100E89664 /* ContentView.swift in Sources */,
+				53A70DD026EB9C6100E89664 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A70DE226EB9C7600E89664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A70DE926EB9C7600E89664 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53A70DED26EB9C7600E89664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53A70DE526EB9C7600E89664 /* FindEx */;
+			targetProxy = 53A70DEC26EB9C7600E89664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53A70DD826EB9C6100E89664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A70DD926EB9C6100E89664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53A70DDD26EB9C6100E89664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53A70DDE26EB9C6100E89664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		53A70DE026EB9C6100E89664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Find/Find.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Find/Preview Content\"";
+				DEVELOPMENT_TEAM = HWETRKW89U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Find/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lightning.FindContext.Find;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53A70DE126EB9C6100E89664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Find/FindRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Find/Preview Content\"";
+				DEVELOPMENT_TEAM = HWETRKW89U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Find/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lightning.FindContext.Find;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53A70DF026EB9C7600E89664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FindEx/FindEx.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HWETRKW89U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FindEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lightning.FindContext.Find.FindEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53A70DF126EB9C7600E89664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FindEx/FindEx.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HWETRKW89U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FindEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lightning.FindContext.Find.FindEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53A70DC726EB9C6100E89664 /* Build configuration list for PBXProject "Find" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A70DDD26EB9C6100E89664 /* Debug */,
+				53A70DDE26EB9C6100E89664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A70DDF26EB9C6100E89664 /* Build configuration list for PBXNativeTarget "Find" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A70DE026EB9C6100E89664 /* Debug */,
+				53A70DE126EB9C6100E89664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A70DEF26EB9C7600E89664 /* Build configuration list for PBXNativeTarget "FindEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A70DF026EB9C7600E89664 /* Debug */,
+				53A70DF126EB9C7600E89664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53A70DC426EB9C6100E89664 /* Project object */;
+}
